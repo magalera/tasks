@@ -12,6 +12,8 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CreatedTrelloCard {
 
+    public static final String SUBJECT = "Tasks: New Trello Card";
+
     @JsonProperty("id")
     private String id;
 
