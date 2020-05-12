@@ -43,6 +43,6 @@ public class MailCreatorService {
         context.setVariable("is_friend", true);
         context.setVariable("admin_config", adminConfig);
         context.setVariable("application_functionality", functionality);
-        return templateEngine.process("mail/created-trello-card-mail.html", context);
+        return templateEngine.process("created-trello-card-mail.html", context);
     }
 }
